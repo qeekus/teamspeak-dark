@@ -142,10 +142,13 @@ p {
 .TextMessage_Disconnected,
 .TextMessage_ClientDisconnected,
 .TextMessage_ClientSwitched,
-.TextMessage_ClientLeft,
-.TextMessage_ClientDropped
+.TextMessage_ClientLeft
 {
   color: #607D8B;
+}
+.TextMessage_ClientDropped
+{
+  color: #CC2B2B;
 }
 
 /* warning messages (red) */
